@@ -8,6 +8,7 @@ import {Contact} from '../components/Contact';
 import { HeaderNav } from '../components/layout/HeaderNav';
 import { Footer } from '../components/layout/Footer';
 import { Project } from '../components/Project';
+import { Certifications } from '../components/Certifications';
 
 export const AppRoutes = () => {
   return (
@@ -19,6 +20,7 @@ export const AppRoutes = () => {
             <Route path='/home' element={<Home />}/>
             <Route path='/portfolio' element={<Portfolio/>}/>
             <Route path='/resume' element={<Resume/>}/>
+            <Route path='/certifications' element={<Certifications/>}/>
             <Route path='/services' element={<Services/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/project/:id' element={<Project/>}/>

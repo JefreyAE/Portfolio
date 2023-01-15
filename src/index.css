@@ -280,6 +280,87 @@ button:hover{
   border-radius: 15px;
 }
 
+
+
+.content .resume .double-page{
+  display: flex;
+}
+
+.content .left-content{
+  width: 50%;
+  border-right: 1px solid #ccc;
+  margin-left: 25px;
+}
+
+.content .right-content{
+  width: 50%;
+  margin-left: 25px;
+}
+
+.resume-section ul p{
+  width: 100%;
+  margin: 5px;
+}
+
+.container{
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  color: white;
+  font-weight: bold;
+  padding-right: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.languages{
+  background-color: #1f6feb;
+}
+.js { width: 80%; }
+.php { width: 70%; }
+.sql { width: 70%; }
+.java { width: 50%; }
+.python { width: 40%; }
+
+.frameworks{
+  background-color: green;
+}
+.react { width: 75%; }
+.laravel { width: 70%; }
+.nodejs { width: 55%; }
+.net { width: 55%; }
+
+.education-title{
+  color: #1f6feb;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.resume-section .period{
+  margin-left: 15px;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.resume-section .institution{
+  margin-top: -15px;
+  font-weight: 600;
+}
+
 @keyframes glowing{
   0% { 
     text-shadow: 2px 2px white;
