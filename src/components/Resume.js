@@ -47,6 +47,16 @@ export const Resume = () => {
                 <p className='period'> September 2021 - January 2022</p>
             </ul>
           </section>
+          <section className='resume-section'>
+            <h2>Courses</h2>
+            <ul>
+              <li className='li-courses'><a href="https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/" target='_blank' rel='noreferrer'>Udemy: Máster en javascript: aprender js, jquery, angular, nodejs</a></li>
+              <li className='li-courses'><a href="https://www.udemy.com/course/curso-de-git-y-la-terminal-de-comandos-para-programadores/" target='_blank' rel='noreferrer'>Udemy: Curso de git y la terminal de comandos - para programadores</a></li>
+              <li className='li-courses'><a href="https://www.udemy.com/course/master-en-php-sql-poo-mvc-laravel-symfony-4-wordpress/" target='_blank' rel='noreferrer'>Udemy: Máster en php, sql, poo, mvc, Laravel</a></li>
+              <li className='li-courses'><a href="https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/" target='_blank' rel='noreferrer'>Udemy: Máster en Frameworks JavaScript: Aprende Angular, React, Vue</a></li>
+              <li className='li-courses'><a href="https://www.udemy.com/course/curso-de-seo-online-y-posicionamiento-web-en-google/" target='_blank' rel='noreferrer'>Udemy: Curso de SEO y Posicionamiento web para Desarrolladores web</a></li>
+            </ul>
+          </section>
         </div>
         <div className='right-content'>
           <section className='resume-section'>
@@ -54,7 +64,7 @@ export const Resume = () => {
             <ul>
               <p>Javascript</p><div class="container"><div class="skills languages js">80%</div></div>
               <p>PHP</p><div class="container"><div class="skills languages php">70%</div></div>
-              <p>SQL</p><div class="container"><div class="skills languages sql">70%</div></div>
+              <p>SQL</p><div class="container"><div class="skills languages sql">80%</div></div>
               <p>Java</p><div class="container"><div class="skills languages java">50%</div></div>
               <p>Python</p><div class="container"><div class="skills languages python">40%</div></div>
             </ul>
@@ -69,17 +79,16 @@ export const Resume = () => {
             </ul>
           </section>
           <section className='resume-section'>
-            <h2>Personal projects</h2>
+            <h2>Others</h2>
             <ul>
-              <li>Live stock application</li>
-              <li>Video game - Magic Quest</li>
-            </ul>
-          </section>
-          <section className='resume-section'>
-            <h2>Courses</h2>
-            <ul>
-              <li>Master in React</li>
-              <li>Master in PHP</li>
+              <p>HTML</p><div class="container"><div class="skills others html">95%</div></div>
+              <p>CSS</p><div class="container"><div class="skills others css">90%</div></div>
+              <p>MySQL</p><div class="container"><div class="skills others mysql">80%</div></div>
+              <p>Git</p><div class="container"><div class="skills others git">75%</div></div>
+              <p>JQuery</p><div class="container"><div class="skills others jquery">60%</div></div>
+              <p>SEO</p><div class="container"><div class="skills others seo">60%</div></div>
+              <p>Docker</p><div class="container"><div class="skills others docker">40%</div></div>
+              <p>Jenkins</p><div class="container"><div class="skills others jenkins">35%</div></div>
             </ul>
           </section>
         </div>

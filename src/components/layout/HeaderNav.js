@@ -11,7 +11,7 @@ export const HeaderNav = () => {
         <nav>
             <ul>
                 <li><NavLink to="/home" className={({isActive}) => isActive ? "isActive" : ""} >Home</NavLink></li>
-                <li><NavLink to="/services" className={({isActive}) => isActive ? "isActive" : ""} >Services</NavLink></li>
+                {/* <li><NavLink to="/services" className={({isActive}) => isActive ? "isActive" : ""} >Services</NavLink></li> */}
                 <li><NavLink to="/resume" className={({isActive}) => isActive ? "isActive" : ""} >Resume</NavLink></li>
                 <li><NavLink to="/certifications" className={({isActive}) => isActive ? "isActive" : ""} >Certifications</NavLink></li>
                 <li><NavLink to="/portfolio" className={({isActive}) => isActive ? "isActive" : ""} >Portfolio</NavLink></li>
