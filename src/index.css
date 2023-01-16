@@ -393,6 +393,7 @@ text-decoration: none;
 
 .badge{
   margin: 25px auto;
+  min-width: 340px;
   min-height: 425px;
   max-height: 425px;
   padding: 20px 20px 20px 20px;
