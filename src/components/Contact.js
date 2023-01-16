@@ -18,7 +18,10 @@ export const Contact = () => {
           <section className='contact-section'>
             <h2>Social Networks</h2>
             <div  className='social-net'>
-            <a href='https://www.linkedin.com/in/jefreyariasesquivel-cr/' target='_blank' rel='noreferrer'><img src='/images/linkedIn.png'/></a><a href='https://www.linkedin.com/in/jefreyariasesquivel-cr/' target='_blank' rel='noreferrer'>jefreyariasesquivel-cr</a>
+              <a href='https://www.linkedin.com/in/jefreyariasesquivel-cr/' target='_blank' rel='noreferrer'><img src='/images/linkedIn.png'/></a><a href='https://www.linkedin.com/in/jefreyariasesquivel-cr/' target='_blank' rel='noreferrer'>jefreyariasesquivel-cr</a>
+            </div>
+            <div  className='social-net'>
+              <a href='https://github.com/JefreyAE' target='_blank' rel='noreferrer'><img src='/images/github.png'/></a><a href='https://github.com/JefreyAE' target='_blank' rel='noreferrer'>JefreyAE</a>
             </div>
           </section>
         </div>
