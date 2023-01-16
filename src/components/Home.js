@@ -6,8 +6,8 @@ import { projects } from '../data/projects';
 export const Home = () => {
   return (
     <div className='home'>
-      <h1>Hi, I'm <strong>Jefrey Arias</strong>, I'm a <strong>Web Developer</strong> in Costa Rica, 
-          I offer my <strong>programming and development</strong> services in all kinds of web projects
+      <h1>Hi, my name is  <strong>Jefrey Arias</strong>. I'm a systems engineer dedicated to <strong>Web Development</strong> in Costa Rica, 
+          I offer my <strong>programming and development</strong> services in all kinds of web projects.
       </h1>
       <h2 className='contact-me'>
         <Link to={'/contact'}>Contact me</Link>
