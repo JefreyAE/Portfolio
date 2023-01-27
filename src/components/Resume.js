@@ -62,33 +62,33 @@ export const Resume = () => {
           <section className='resume-section'>
             <h2>Programming languages</h2>
             <ul>
-              <p>Javascript</p><div class="container"><div class="skills languages js">80%</div></div>
-              <p>PHP</p><div class="container"><div class="skills languages php">70%</div></div>
-              <p>SQL</p><div class="container"><div class="skills languages sql">80%</div></div>
-              <p>Java</p><div class="container"><div class="skills languages java">50%</div></div>
-              <p>Python</p><div class="container"><div class="skills languages python">40%</div></div>
+              <p>Javascript</p><div className="container"><div className="skills languages js">80%</div></div>
+              <p>PHP</p><div className="container"><div className="skills languages php">70%</div></div>
+              <p>SQL</p><div className="container"><div className="skills languages sql">80%</div></div>
+              <p>Java</p><div className="container"><div className="skills languages java">50%</div></div>
+              <p>Python</p><div className="container"><div className="skills languages python">40%</div></div>
             </ul>
           </section>
           <section className='resume-section'>
             <h2>Frameworks</h2>
             <ul>
-              <p>React</p><div class="container"><div class="skills frameworks react">75%</div></div>
-              <p>Laravel</p><div class="container"><div class="skills frameworks laravel">70%</div></div>
-              <p>NodeJS</p><div class="container"><div class="skills frameworks nodejs">55%</div></div>
-              <p>.Net</p><div class="container"><div class="skills frameworks net">55%</div></div>
+              <p>React</p><div className="container"><div className="skills frameworks react">75%</div></div>
+              <p>Laravel</p><div className="container"><div className="skills frameworks laravel">70%</div></div>
+              <p>NodeJS</p><div className="container"><div className="skills frameworks nodejs">55%</div></div>
+              <p>.Net</p><div className="container"><div className="skills frameworks net">55%</div></div>
             </ul>
           </section>
           <section className='resume-section'>
             <h2>Others</h2>
             <ul>
-              <p>HTML</p><div class="container"><div class="skills others html">95%</div></div>
-              <p>CSS</p><div class="container"><div class="skills others css">90%</div></div>
-              <p>MySQL</p><div class="container"><div class="skills others mysql">80%</div></div>
-              <p>Git</p><div class="container"><div class="skills others git">75%</div></div>
-              <p>JQuery</p><div class="container"><div class="skills others jquery">60%</div></div>
-              <p>SEO</p><div class="container"><div class="skills others seo">60%</div></div>
-              <p>Docker</p><div class="container"><div class="skills others docker">40%</div></div>
-              <p>Jenkins</p><div class="container"><div class="skills others jenkins">35%</div></div>
+              <p>HTML</p><div className="container"><div className="skills others html">95%</div></div>
+              <p>CSS</p><div className="container"><div className="skills others css">90%</div></div>
+              <p>MySQL</p><div className="container"><div className="skills others mysql">80%</div></div>
+              <p>Git</p><div className="container"><div className="skills others git">75%</div></div>
+              <p>JQuery</p><div className="container"><div className="skills others jquery">60%</div></div>
+              <p>SEO</p><div className="container"><div className="skills others seo">60%</div></div>
+              <p>Docker</p><div className="container"><div className="skills others docker">40%</div></div>
+              <p>Jenkins</p><div className="container"><div className="skills others jenkins">35%</div></div>
             </ul>
           </section>
         </div>

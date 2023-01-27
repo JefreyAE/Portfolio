@@ -270,8 +270,7 @@ button:hover{
 }
 
 .page-job .mask{
-  height: 300px;
-  width: 60%;
+  width: 50%;
   overflow: hidden;
   box-shadow: 0px 0px 3px #ccc;
   margin: auto;
@@ -280,7 +279,9 @@ button:hover{
   border-radius: 15px;
 }
 
-
+.page-job .mask img{
+  width: 100%;
+}
 
 .content .resume .double-page{
   display: flex;
