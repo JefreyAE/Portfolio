@@ -34,13 +34,13 @@ export const Resume = () => {
             <h2>Education</h2>
             <ul>
               <h3 className='education-title'>College Degree in Computer Science – Web applications development</h3>
-                <p className='institution'>Universidad Nacional Estatal a Distancia</p>
+                <p className='institution'>Universidad Estatal a Distancia</p>
                 <p className='period'>In progress...</p>
               <h3 className='education-title'>Bachelor’s Degree in Computer Science</h3>
-                <p className='institution'>Universidad Nacional Estatal a Distancia</p>
+                <p className='institution'>Universidad Estatal a Distancia</p>
                 <p className='period'>2017 - 2021</p>
               <h3 className='education-title'>CONARE English program. Level B1+</h3>
-                <p className='institution'>Universidad Nacional Estatal a Distancia</p>
+                <p className='institution'>Universidad Estatal a Distancia</p>
                 <p className='period'>2017 - 2021</p>
                <h3 className='education-title'>AWS Re Start Program</h3>
                 <p className='institution'>Elev8 Education</p>
