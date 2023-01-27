@@ -33,10 +33,10 @@ export const Resume = () => {
           <section className='resume-section'>
             <h2>Education</h2>
             <ul>
-              <h3 className='education-title'>College degree in Computer Science – Web Development</h3>
+              <h3 className='education-title'>College Degree in Computer Science – Web applications development</h3>
                 <p className='institution'>Universidad Nacional Estatal a Distancia</p>
                 <p className='period'>In progress...</p>
-              <h3 className='education-title'>Bachelor’s Degree in computer science</h3>
+              <h3 className='education-title'>Bachelor’s Degree in Computer Science</h3>
                 <p className='institution'>Universidad Nacional Estatal a Distancia</p>
                 <p className='period'>2017 - 2021</p>
               <h3 className='education-title'>CONARE English program. Level B1+</h3>
