@@ -1,5 +1,16 @@
 export const projects = [
     {
+        'id': 'devJunior',
+        'name': 'Dev: Junior',
+        'url': 'http://23.23.183.194/home/',
+        'technologies': 'Python, Django, SQLite, Linux, AWS Lightsail, JS, Css',
+        'category': 'Web Development',
+        'description': 'The purpose of this project is to have at hand different command lists for different technologies.',
+        'repositories': {
+            'Front_End': ''
+        }
+    },
+    {
         'id': 'liveStockApp',
         'name': 'Graduation Project',
         'url': 'https://appganaderiademo1.000webhostapp.com/',
@@ -14,7 +25,7 @@ export const projects = [
     {
         'id': 'petShop',
         'name': 'Tiendita Pet Shop',
-        'url': 'https://tiendita-golden-grooming.000webhostapp.com/',
+        'url': 'https://tiendita-ggrooming.000webhostapp.com/',
         'technologies': 'HTML, CSS, JS, PHP, MySQL',
         'category': 'Web Development',
         'description': 'Web application developed in PHP for a pet store.',
@@ -53,5 +64,6 @@ export const projects = [
         'repositories': {
             'Front_End': 'https://github.com/JefreyAE/Portfolio'
         }
-    }
+    },
+    
 ]

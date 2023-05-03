@@ -18,7 +18,7 @@ export const Home = () => {
           These are some of my web development works
         </p>
       </section>
-      <ProjectList projects={projects} limit={3} />
+      <ProjectList projects={projects} limit={4} />
     </div>
   )
 }
