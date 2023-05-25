@@ -2,7 +2,7 @@ export const projects = [
     {
         'id': 'devJunior',
         'name': 'Dev: Junior',
-        'url': 'http://23.23.183.194/home/',
+        'url': 'http://dev-junior.com/',
         'technologies': 'Python, Django, SQLite, Linux, AWS Lightsail, JS, Css',
         'category': 'Web Development',
         'description': 'The purpose of this project is to have at hand different command lists for different technologies.',
