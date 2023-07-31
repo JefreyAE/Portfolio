@@ -47,6 +47,18 @@ export const projects = [
         
     },
     {
+        'id': 'newLliveStockApp',
+        'name': 'LiveStock Register',
+        'url': 'https://app-ganado-next-js-13.vercel.app',
+        'technologies': 'NextJS, HTML, CSS, JS, PHP, MySQL, GitHub, Laravel',
+        'category': 'Web Development',
+        'description': 'Improved version of my Graduation Project, created with ReactJS in the Front-End and Laravel in the API',
+        'repositories': {
+            'Front_End': '',
+            'Back_End': ''
+        }   
+    },
+    {
         'id': 'magicQuest',
         'name': 'Video Game Project',
         'url': 'https://www.unedgames.com/magicquest',
