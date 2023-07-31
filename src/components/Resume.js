@@ -73,6 +73,7 @@ export const Resume = () => {
             <h2>Frameworks</h2>
             <ul>
               <p>React</p><div className="container"><div className="skills frameworks react">75%</div></div>
+              <p>NextJS13</p><div className="container"><div className="skills frameworks nextjs">75%</div></div>
               <p>Laravel</p><div className="container"><div className="skills frameworks laravel">70%</div></div>
               <p>NodeJS</p><div className="container"><div className="skills frameworks nodejs">55%</div></div>
               <p>.Net</p><div className="container"><div className="skills frameworks net">55%</div></div>
