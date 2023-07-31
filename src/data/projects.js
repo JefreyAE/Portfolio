@@ -16,7 +16,7 @@ export const projects = [
         'url': 'https://app-ganado-next-js-13.vercel.app',
         'technologies': 'NextJS, HTML, CSS, JS, PHP, MySQL, GitHub, Laravel',
         'category': 'Web Development',
-        'description': 'Improved version of my Graduation Project, created with ReactJS in the Front-End and Laravel in the API',
+        'description': 'Improved version of my Graduation Project, created with ReactJS in the Front-End and Laravel in the API: Demo account - User: demo@gmail.com Pass: demo1234 ',
         'repositories': {
             'Front_End': '',
             'Back_End': ''
