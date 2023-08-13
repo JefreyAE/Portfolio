@@ -12,12 +12,12 @@ code {
     monospace;
 }
 
-.layout{
+.layout {
   width: 85%;
   margin: 0 auto;
 }
 
-.header{
+.header {
   display: flex;
   height: 120px;
   justify-content: center;
@@ -26,20 +26,20 @@ code {
   margin-bottom: 35px;
 }
 
-.header .logo{
+.header .logo {
   flex-grow: 2;
   display: flex;
 }
 
-.header .logo span{
+.header .logo span {
   display: block;
   font-size: 90px;
   font-weight: bolder;
   margin-top: -8px;
-  
+
 }
 
-.header .logo h3{
+.header .logo h3 {
   display: block;
   flex-basis: 40px;
   margin-left: 10px;
@@ -47,11 +47,11 @@ code {
   text-transform: uppercase;
 }
 
-.header nav{
+.header nav {
   flex-grow: 1;
 }
 
-.header nav ul{
+.header nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -59,7 +59,7 @@ code {
   height: 120px;
 }
 
-.header li{
+.header li {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
@@ -67,7 +67,7 @@ code {
   margin-right: 15px;
 }
 
-.header li a{
+.header li a {
   color: black;
   text-decoration: none;
   transition: all 300ms;
@@ -77,19 +77,19 @@ code {
   -o-transition: all 300ms;
 }
 
-.header li a:hover{
+.header li a:hover {
   color: #1f6feb;
 }
 
-.content{
+.content {
   min-height: 870px;
 }
 
-.header .isActive{
+.header .isActive {
   color: #1f6feb;
 }
 
-.footer{
+.footer {
   min-height: 40px;
   line-height: 20px;
   text-align: center;
@@ -101,21 +101,21 @@ code {
   color: #444;
 }
 
-.home h1{
+.home h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 0px;
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
-.home strong{
+.home strong {
   color: #1f6feb;
 }
 
-.home .contact-me a{
+.home .contact-me a {
   color: white;
-  background-color:#1f6feb;
+  background-color: #1f6feb;
   padding: 5px 8px 8px 5px;
   text-decoration: none;
   line-height: 16px;
@@ -132,29 +132,29 @@ code {
   -o-transition: all 300ms;
 }
 
-.home .contact-me a:hover{
+.home .contact-me a:hover {
   background-color: rgb(29, 145, 29);
 }
 
 .home .heading,
-.page .heading{
+.page .heading {
   font-size: 45px;
   font-weight: 500;
   color: #0064b5;
   margin-bottom: 0px;
 }
 
-.page .heading{
+.page .heading {
   font-weight: bold;
 }
 
-.home p{
+.home p {
   color: #444;
 }
 
 input[type="text"],
 input[type="email"],
-textarea{
+textarea {
   display: block;
   padding: 15px;
   width: 450px;
@@ -163,9 +163,9 @@ textarea{
 }
 
 input[type="submit"],
-button{
+button {
   color: white;
-  background-color:#1f6feb;
+  background-color: #1f6feb;
   margin: 25px;
   margin-top: 15px;
   cursor: pointer;
@@ -188,22 +188,22 @@ button{
 }
 
 input[type="submit"]:hover,
-button:hover{
+button:hover {
   background-color: rgb(29, 145, 29);
 }
 
-.jobs{
+.jobs {
   display: flex;
   flex-wrap: wrap;
 }
 
-.job-item{
+.job-item {
   flex-basis: 35%;
   flex-grow: 1;
   margin: 30px;
 }
 
-.job-item img{
+.job-item img {
   width: 100%;
   transition: all 500ms;
   -webkit-transition: all 500ms;
@@ -212,11 +212,11 @@ button:hover{
   -o-transition: all 500ms;
 }
 
-.job-item img:hover{
+.job-item img:hover {
   width: 130%;
 }
 
-.job-item .mask{
+.job-item .mask {
   width: 100%;
   height: 350px;
   overflow: hidden;
@@ -229,13 +229,13 @@ button:hover{
   -o-border-radius: 15px;
 }
 
-.job-item span{
+.job-item span {
   color: gray;
   margin-top: 35px;
   display: block;
 }
 
-.job-item h2{
+.job-item h2 {
   display: block;
   color: black;
   margin-top: 5px;
@@ -243,7 +243,7 @@ button:hover{
   font-size: 30px;
 }
 
-.job-item h3{
+.job-item h3 {
   display: block;
   color: gray;
   margin-top: 0px;
@@ -251,7 +251,7 @@ button:hover{
   border-top: 1px solid #ddd;
 }
 
-.job-item a{
+.job-item a {
   display: block;
   color: black;
   margin-top: 5px;
@@ -265,11 +265,11 @@ button:hover{
   -webkit-animation: glowing 3s linear infinite;
 }
 
-.job-item a:hover{
+.job-item a:hover {
   color: #1f6feb;
 }
 
-.page-job .mask{
+.page-job .mask {
   width: 50%;
   overflow: hidden;
   box-shadow: 0px 0px 3px #ccc;
@@ -279,32 +279,32 @@ button:hover{
   border-radius: 15px;
 }
 
-.page-job .mask img{
+.page-job .mask img {
   width: 100%;
 }
 
-.content .resume .double-page{
+.content .resume .double-page {
   display: flex;
 }
 
-.content .resume .left-content{
+.content .resume .left-content {
   width: 50%;
   border-right: 1px solid #ccc;
   margin-left: 15px;
   padding-right: 20px;
 }
 
-.content .right-content{
+.content .right-content {
   width: 50%;
   margin-left: 25px;
 }
 
-.resume-section ul p{
+.resume-section ul p {
   width: 100%;
   margin: 5px;
 }
 
-.container{
+.container {
   width: 50%;
   background-color: #ddd;
   border-radius: 5px;
@@ -316,8 +316,8 @@ button:hover{
 
 .skills {
   text-align: right;
-  padding-top: 5px; 
-  padding-bottom: 5px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: white;
   font-weight: bold;
   padding-right: 4px;
@@ -329,71 +329,125 @@ button:hover{
   -webkit-border-radius: 5px;
 }
 
-.languages{
+.languages {
   background-color: #1f6feb;
 }
-.js { width: 80%; }
-.php { width: 70%; }
-.sql { width: 70%; }
-.java { width: 50%; }
-.python { width: 40%; }
 
-.frameworks{
+.js {
+  width: 80%;
+}
+
+.php {
+  width: 70%;
+}
+
+.sql {
+  width: 70%;
+}
+
+.java {
+  width: 50%;
+}
+
+.python {
+  width: 40%;
+}
+
+.frameworks {
   background-color: green;
 }
-.react { width: 75%; }
-.nextjs { width: 75%; }
-.laravel { width: 70%; }
-.nodejs { width: 55%; }
-.net { width: 55%; }
 
-.others{
+.react {
+  width: 75%;
+}
+
+.nextjs {
+  width: 75%;
+}
+
+.laravel {
+  width: 70%;
+}
+
+.nodejs {
+  width: 55%;
+}
+
+.net {
+  width: 55%;
+}
+
+.others {
   background-color: #db5bb9;
 }
-.html { width: 95%; }
-.css { width: 90%; }
-.mysql { width: 80%; }
-.git { width: 75%; }
-.jquery { width: 60%; }
-.seo { width: 60%; }
-.docker { width: 40%; }
-.jenkins { width: 35%; }
+
+.html {
+  width: 95%;
+}
+
+.css {
+  width: 90%;
+}
+
+.mysql {
+  width: 80%;
+}
+
+.git {
+  width: 75%;
+}
+
+.jquery {
+  width: 60%;
+}
+
+.seo {
+  width: 60%;
+}
+
+.docker {
+  width: 40%;
+}
+
+.jenkins {
+  width: 35%;
+}
 
 
 
-.education-title{
+.education-title {
   color: #1f6feb;
   font-size: 20px;
   font-weight: bolder;
 }
 
-.resume-section .period{
+.resume-section .period {
   margin-left: 15px;
   font-weight: 600;
   margin-top: -5px;
 }
 
-.resume-section .institution{
+.resume-section .institution {
   margin-top: -15px;
   font-weight: 600;
 }
 
-.li-courses{
+.li-courses {
   margin-bottom: 5px;
   font-size: 18px;
 }
 
-.li-courses a{
-text-decoration: none;
+.li-courses a {
+  text-decoration: none;
 }
 
-.badge-container{
+.badge-container {
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.badge{
+.badge {
   margin: 25px auto;
   min-width: 340px;
   min-height: 425px;
@@ -414,11 +468,11 @@ text-decoration: none;
   -o-transition: all 300ms;
 }
 
-.badge:hover{
+.badge:hover {
   box-shadow: 0px 5px 15px #faa61a !important;
 }
 
-.badge img{
+.badge img {
   width: 90%;
   display: block;
   margin: auto;
@@ -429,69 +483,232 @@ text-decoration: none;
   -o-transition: all 400ms;
 }
 
-.badge img:hover{
+.badge img:hover {
   width: 100%;
 
 }
 
-.badge p{
+.badge p {
   font-size: 18px;
   text-align: center;
   margin: 0px auto;
 }
 
-.badge button{
+.badge button {
   display: block;
   margin: 10px auto;
   margin-bottom: 0px;
   padding: 9px;
 }
 
-.contact-container{
+.contact-container {
   display: flex;
 }
 
-.contact-section{
+.contact-section {
   height: 132px;
   flex-grow: 1;
 }
 
-.social-net{
+.social-net {
   display: flex;
   align-items: center;
 }
 
-.social-net a{
+.social-net a {
   margin-left: 20px;
   font-size: 20px;
 }
 
-.social-net img{
+.social-net img {
   width: 132px;
 }
 
-@keyframes glowing{
-  0% { 
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  width: 210px;
+  height: 260px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  background-color: #1f6feb;
+}
+
+.card .front {
+  display: flex;
+  flex-direction: column;
+  transform: perspective(600px) rotateY(0deg);
+  -webkit-transform: perspective(600px) rotateY(0deg);
+  -moz-transform: perspective(600px) rotateY(0deg);
+  -ms-transform: perspective(600px) rotateY(0deg);
+  -o-transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+  /* animation: spiningFront 700ms ease-in-out 2;
+  -webkit-animation: spiningFront 700ms ease-in-out 2; */
+}
+
+.card .front img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card .front h3 {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgb(0, 0, 0, .4);
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  -moz-transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+  /* animation: spiningBack 700ms ease-in-out 2;
+  -webkit-animation: spiningBack 700ms ease-in-out 2; */
+}
+
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  -moz-transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+  -webkit-transform: perspective(600px) rotateY(360deg);
+  -moz-transform: perspective(600px) rotateY(360deg);
+  -ms-transform: perspective(600px) rotateY(360deg);
+  -o-transform: perspective(600px) rotateY(360deg);
+}
+
+@keyframes spiningFront {
+  0% {
+    transform: perspective(600px) rotateY(0deg);
+    -webkit-transform: perspective(600px) rotateY(0deg);
+    -moz-transform: perspective(600px) rotateY(0deg);
+    -ms-transform: perspective(600px) rotateY(0deg);
+    -o-transform: perspective(600px) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(600px) rotateY(180deg);
+    -webkit-transform: perspective(600px) rotateY(180deg);
+    -moz-transform: perspective(600px) rotateY(180deg);
+    -ms-transform: perspective(600px) rotateY(180deg);
+    -o-transform: perspective(600px) rotateY(180deg);
+  }
+
+  100% {
+    transform: perspective(600px) rotateY(360deg);
+    -webkit-transform: perspective(600px) rotateY(360deg);
+    -moz-transform: perspective(600px) rotateY(360deg);
+    -ms-transform: perspective(600px) rotateY(360deg);
+    -o-transform: perspective(600px) rotateY(360deg);
+}
+
+}
+
+@keyframes spiningBack {
+  0% {
+    transform: perspective(600px) rotateY(180deg);
+    -webkit-transform: perspective(600px) rotateY(180deg);
+    -moz-transform: perspective(600px) rotateY(180deg);
+    -ms-transform: perspective(600px) rotateY(180deg);
+    -o-transform: perspective(600px) rotateY(180deg);
+}
+
+  50% {
+    transform: perspective(600px) rotateY(360deg);
+    -webkit-transform: perspective(600px) rotateY(360deg);
+    -moz-transform: perspective(600px) rotateY(360deg);
+    -ms-transform: perspective(600px) rotateY(360deg);
+    -o-transform: perspective(600px) rotateY(360deg);
+}
+
+  100% {
+    transform: perspective(600px) rotateY(540deg);
+    -webkit-transform: perspective(600px) rotateY(540deg);
+    -moz-transform: perspective(600px) rotateY(540deg);
+    -ms-transform: perspective(600px) rotateY(540deg);
+    -o-transform: perspective(600px) rotateY(540deg);
+}
+}
+
+@keyframes glowing {
+  0% {
     text-shadow: 2px 2px white;
   }
-  50% 
-  { 
-    text-shadow: 2px 2px #1f6feb; 
+
+  50% {
+    text-shadow: 2px 2px #1f6feb;
   }
-  100% { 
+
+  100% {
     text-shadow: 2px 2px white;
   }
 }
 
-@keyframes glowing-badges{
-  0% { 
+@keyframes glowing-badges {
+  0% {
     box-shadow: 0px 5px 5px white;
   }
-  50% 
-  { 
-    box-shadow: 0px 5px 5px #faa61a; 
+
+  50% {
+    box-shadow: 0px 5px 5px #faa61a;
   }
-  100% { 
+
+  100% {
     box-shadow: 0px 5px 5px white;
   }
 }
