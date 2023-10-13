@@ -2,10 +2,10 @@ export const projects = [
     {
         'id': 'devJunior',
         'name': 'Dev: Junior',
-        'url': 'https://dev-junior.com/',
-        'technologies': 'Python, Django, SQLite, Linux, AWS Lightsail, JS, Css',
+        'url': 'https://blog-commands.onrender.com',
+        'technologies': 'Python, Django, SQLite, Linux, Rendeer, JS, Css',
         'category': 'Web Development',
-        'description': 'The purpose of this project is to have at hand different command lists for different technologies.',
+        'description': 'Attention: this project is hosted in the free tier of Render so it may take between 6 and 20 seconds to load the page.',
         'repositories': {
             'Front_End': ''
         }
