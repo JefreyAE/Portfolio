@@ -1,6 +1,6 @@
 import React from 'react';
-import { projects } from '../data/projects';
-import { ProjectList } from './ProjectList';
+import { projects } from '../../data/projects';
+import { ProjectList } from './components/ProjectList';
 
 export const Portfolio = () => {
 

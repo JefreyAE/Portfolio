@@ -1,14 +1,15 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
-import {Home} from '../components/Home';
-import {Portfolio} from '../components/Portfolio';
-import {Resume} from '../components/Resume';
-import {Services} from '../components/Services';
-import {Contact} from '../components/Contact';
-import { HeaderNav } from '../components/layout/HeaderNav';
-import { Footer } from '../components/layout/Footer';
-import { Project } from '../components/Project';
-import { Certifications } from '../components/Certifications';
+import {Home} from '../components/pages/Home';
+import {Portfolio} from '../components/pages/Portfolio';
+import {Resume} from '../components/pages/Resume';
+import {Services} from '../components/pages/Services';
+import {Contact} from '../components/pages/Contact';
+import { HeaderNav } from '../components/layouts/HeaderNav';
+import { Footer } from '../components/layouts/Footer';
+import { Project } from '../components/pages/components/Project';
+import { Certifications } from '../components/pages/Certifications';
+import Theory from '../components/pages/Theory';
 
 export const AppRoutes = () => {
   return (
@@ -23,6 +24,7 @@ export const AppRoutes = () => {
             <Route path='/certifications' element={<Certifications/>}/>
             <Route path='/services' element={<Services/>}/>
             <Route path='/contact' element={<Contact/>}/>
+            <Route path='/theory' element={<Theory/>}/>
             <Route path='/project/:id' element={<Project/>}/>
             <Route path='*' element={<div className='page'><h2 className='heading'>404 - Page not found</h2></div>}/>
         </Routes>

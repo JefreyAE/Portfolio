@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { projects } from '../data/projects';
+import { projects } from '../../../data/projects';
 
 export const Project = () => {
 

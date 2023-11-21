@@ -1,6 +1,6 @@
 import React from 'react';
-import { certifications } from '../data/certifications';
-import { Certification } from './Certification';
+import { certifications } from '../../data/certifications';
+import { Certification } from './components/Certification';
 
 export const Certifications = () => {
   return (
