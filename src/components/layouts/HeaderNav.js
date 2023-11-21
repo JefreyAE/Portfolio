@@ -6,7 +6,7 @@ export const HeaderNav = () => {
     <header className='header'>
         <div className='logo'>
             <span>J</span>
-            <h3>Jefrey Arias Esquivel</h3>
+            <h3><a href='https://www.linkedin.com/in/jefreyariasesquivel-cr/' target='_blank' rel='noreferrer'>Jefrey Arias Esquivel</a></h3>
         </div>
         <nav>
             <ul>
