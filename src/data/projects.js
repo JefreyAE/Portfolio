@@ -25,7 +25,7 @@ export const projects = [
     {
         'id': 'liveStockApp',
         'name': 'Graduation Project',
-        'url': 'https://appganaderiademo1.000webhostapp.com/',
+        'url': '',
         'technologies': 'HTML, CSS, JS, PHP, MySQL, Laravel',
         'category': 'Web Development',
         'description': 'Graduation project - Bachelor’s Degree (WAMP - Laravel)',
@@ -37,7 +37,7 @@ export const projects = [
     {
         'id': 'petShop',
         'name': 'Tiendita Pet Shop',
-        'url': 'https://tiendita-ggrooming.000webhostapp.com/',
+        'url': '',
         'technologies': 'HTML, CSS, JS, PHP, MySQL',
         'category': 'Web Development',
         'description': 'Web application developed in PHP for a pet store.',

@@ -10,41 +10,54 @@ export const Resume = () => {
             <h2>Work experience</h2>
             <ul>
               <li>
+                <h3><a href='https://www.gft.com/cr/es' target='_blank' rel='noreferrer'>Technical Support Specialist - Infotree Global Solutions</a></h3>
+                <p className='period'>01/15/2024 - Actually</p>
+                <p>Responsible for the installation, configuration, and maintenance of technology platforms,
+                  both on Windows and Linux operating systems. I perform hardware and software debugging tasks,
+                  including the installation of components such as processors, RAM, storage, and PCI cards.
+                  In addition, I manage Linux distributions, update kernels, and resolve network problems,
+                  ensuring the correct operation of systems in corporate and client environments.</p>
+              </li>
+              <li>
                 <h3><a href='https://www.gft.com/cr/es' target='_blank' rel='noreferrer'>GFT-CR Intership</a></h3>
                 <p className='period'>2022 - 2023 (6 months)</p>
                 <p>Providing help in solving tasks and problems in projects as a Full Stack Web
-                developer, for clients abroad, with the help of a highly experienced team</p>
+                  developer, for clients abroad, with the help of a highly experienced team.</p>
               </li>
             </ul>
           </section>
           <section className='resume-section'>
             <h2>Skills</h2>
             <ul>
-              <li>Proactive</li>
-              <li>Self-motivation</li>
-              <li>Writing programs</li>
-              <li>Writing and debugging code</li>
-              <li>Analytical thinking</li>
-              <li>Mathematical skills</li>
-              <li>Accountability</li>
-              <li>Curiosity</li>
+              <li>Proactive problem-solving</li>
+              <li>Self-motivated and detail-oriented</li>
+              <li>Writing, debugging, and optimizing code</li>
+              <li>Strong analytical and critical thinking</li>
+              <li>Solid understanding of algorithms and data structures</li>
+              <li>Experience with Full Stack Development (React, Node.js, PHP, .NET)</li>
+              <li>Proficient in Linux and Windows OS troubleshooting and configuration</li>
+              <li>Database management and optimization (MySQL, SQL Server)</li>
+              <li>Familiarity with cloud platforms (AWS, Azure)</li>
+              <li>DevOps practices (Jenkins, Docker)</li>
+              <li>Experience with Agile methodologies (SCRUM)</li>
+              <li>Strong communication and teamwork skills in multidisciplinary environments</li>
             </ul>
           </section>
           <section className='resume-section'>
             <h2>Education</h2>
             <ul>
               <h3 className='education-title'>College Degree in Computer Science – Web applications development</h3>
-                <p className='institution'>Universidad Estatal a Distancia</p>
-                <p className='period'>In progress...</p>
+              <p className='institution'>Universidad Estatal a Distancia</p>
+              <p className='period'>In progress...</p>
               <h3 className='education-title'>Bachelor’s Degree in Computer Science</h3>
-                <p className='institution'>Universidad Estatal a Distancia</p>
-                <p className='period'>2017 - 2021</p>
+              <p className='institution'>Universidad Estatal a Distancia</p>
+              <p className='period'>2017 - 2021</p>
               <h3 className='education-title'>CONARE English program. Level B1+</h3>
-                <p className='institution'>Universidad Estatal a Distancia</p>
-                <p className='period'>2017 - 2021</p>
-               <h3 className='education-title'>AWS Re Start Program</h3>
-                <p className='institution'>Elev8 Education</p>
-                <p className='period'> September 2021 - January 2022</p>
+              <p className='institution'>Universidad Estatal a Distancia</p>
+              <p className='period'>2017 - 2021</p>
+              <h3 className='education-title'>AWS Re Start Program</h3>
+              <p className='institution'>Elev8 Education</p>
+              <p className='period'> September 2021 - January 2022</p>
             </ul>
           </section>
           <section className='resume-section'>
