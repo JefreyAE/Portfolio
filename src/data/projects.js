@@ -78,8 +78,8 @@ export const projects = [
         }
     },
     {
-        'id': 'vanilla-js-task-manager',
-        'name': 'Vanilla-js-task-manager',
+        'id': 'dinamicList',
+        'name': 'dinamicList',
         'url': 'https://vanilla-js-task-manager-jef.vercel.app/',
         'technologies': 'JS, HTML, Css',
         'category': 'Web Development',
