@@ -28,7 +28,7 @@ export const Home = () => {
           <>
             <div className='card'>
               <div className='face front'>
-                <img src={card.url} />
+                <img src={card.url} alt=''/>
                 <h3>{card.title}</h3>
               </div>
               <div className='face back'>

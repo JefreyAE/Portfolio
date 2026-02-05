@@ -9,7 +9,7 @@ export const Project = () => {
 
   useEffect(() => {
     setproject(projects.find((project) => project.id === id));
-  }, [])
+  }, [id])
 
   return (
     <div className='page page-job'>
