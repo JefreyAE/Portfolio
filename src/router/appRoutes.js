@@ -10,6 +10,8 @@ import { Footer } from '../components/layouts/Footer';
 import { Project } from '../components/pages/components/Project';
 import { Certifications } from '../components/pages/Certifications';
 import Theory from '../components/pages/Theory';
+import { Blog } from '../components/pages/Blog';
+import { Post } from '../components/pages/Post';
 
 export const AppRoutes = () => {
   return (
@@ -26,6 +28,8 @@ export const AppRoutes = () => {
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/theory' element={<Theory/>}/>
             <Route path='/project/:id' element={<Project/>}/>
+            <Route path='/blog' element={<Blog />} />
+            <Route path='/blog/:id' element={<Post />} />
             <Route path='*' element={<div className='page'><h2 className='heading'>404 - Page not found</h2></div>}/>
         </Routes>
       </section>

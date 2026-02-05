@@ -77,5 +77,16 @@ export const projects = [
             'Front_End': 'https://github.com/JefreyAE/Portfolio'
         }
     },
+    {
+        'id': 'vanilla-js-task-manager',
+        'name': 'Vanilla-js-task-manager',
+        'url': 'https://vanilla-js-task-manager-jef.vercel.app/',
+        'technologies': 'JS, HTML, Css',
+        'category': 'Web Development',
+        'description': 'Personal Portfolio',
+        'repositories': {
+            'Front_End': 'https://github.com/JefreyAE/vanilla-js-task-manager-jef'
+        }
+    }
     
 ]

@@ -10,11 +10,16 @@
     "@testing-library/user-event": "^13.5.0",
     "@uiw/codemirror-theme-okaidia": "^4.21.20",
     "@uiw/react-codemirror": "^4.21.20",
+    "github-markdown-css": "^5.8.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^15.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
