@@ -10,7 +10,7 @@ export const projects = [
             'Front_End': ''
         }
     },
-    {
+    /*{
         'id': 'newLliveStockApp',
         'name': 'LiveStock Register',
         'url': 'https://app-ganado-next-js-13.vercel.app',
@@ -21,8 +21,8 @@ export const projects = [
             'Front_End': '',
             'Back_End': ''
         }   
-    },
-    /*{
+    },*/
+    {
         'id': 'liveStockApp',
         'name': 'Graduation Project',
         'url': '',
@@ -33,7 +33,7 @@ export const projects = [
             'Front_End': 'https://github.com/JefreyAE/front-appGanado',
             'Back_End': 'https://github.com/JefreyAE/back-appGanado'
         }
-    },*/
+    },
     /*{
         'id': 'petShop',
         'name': 'Tiendita Pet Shop',
