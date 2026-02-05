@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom'
-import { ProjectList } from './components/ProjectList'
-import { projects } from '../../data/projects';
 
 export const Home = () => {
   const cards = [
