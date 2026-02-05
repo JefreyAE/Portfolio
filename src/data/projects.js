@@ -22,7 +22,7 @@ export const projects = [
             'Back_End': ''
         }   
     },
-    {
+    /*{
         'id': 'liveStockApp',
         'name': 'Graduation Project',
         'url': '',
@@ -33,8 +33,8 @@ export const projects = [
             'Front_End': 'https://github.com/JefreyAE/front-appGanado',
             'Back_End': 'https://github.com/JefreyAE/back-appGanado'
         }
-    },
-    {
+    },*/
+    /*{
         'id': 'petShop',
         'name': 'Tiendita Pet Shop',
         'url': '',
@@ -44,7 +44,7 @@ export const projects = [
         'repositories': {
             'Front_End': 'https://github.com/JefreyAE/Pet-Shop'
         }  
-    },
+    },*/
     {
         'id': 'usersRegistration',
         'name': 'User Registration',

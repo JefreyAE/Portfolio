@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { ProjectList } from './components/ProjectList'
 import { projects } from '../../data/projects';
@@ -44,7 +43,7 @@ export const Home = () => {
           These are some of my web development works
         </p>
       </section>
-      <ProjectList projects={projects} limit={4} />
+      {/*<ProjectList projects={projects} limit={4} />*/}
     </div>
   )
 }
