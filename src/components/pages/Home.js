@@ -35,13 +35,13 @@ export const Home = () => {
           </>
         )}
       </section>
-      <section className='last-works'>
+      {/*<section className='last-works'>
         <h2 className='heading'>Some of my projects</h2>
         <p>
           These are some of my web development works
         </p>
       </section>
-      {/*<ProjectList projects={projects} limit={4} />*/}
+      <ProjectList projects={projects} limit={4} />*/}
     </div>
   )
 }
